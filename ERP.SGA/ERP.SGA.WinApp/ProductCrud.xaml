@@ -1,0 +1,15 @@
+﻿<Window x:Class="ERP.SGA.WinApp.ProductCrud"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ERP.SGA.WinApp"
+        mc:Ignorable="d"
+        Title="ProductCrud" Height="157" Width="313">
+    <Grid>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="34,39,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="245"/>
+        <TextBox x:Name="txtComment" HorizontalAlignment="Left" Margin="34,62,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="245"/>
+        <Button Content="Guardar" HorizontalAlignment="Left" Margin="232,85,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+
+    </Grid>
+</Window>

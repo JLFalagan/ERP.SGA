@@ -6,7 +6,19 @@
         xmlns:local="clr-namespace:ERP.SGA.WinApp"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
 
+    <Window.Resources>
+        <CollectionViewSource x:Key="FuenteVistaColeccion"/>
+    </Window.Resources>
+
+    <Grid>
+        <DataGrid x:Name="dgvListaProductos" ItemsSource="{Binding Source={StaticResource FuenteVistaColeccion}}" AutoGenerateColumns="False" IsReadOnly="True" ColumnWidth="SizeToHeader" Margin="0,110,0,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding Name}" FontWeight="Bold" Width="*" />
+                <DataGridTextColumn Header="Categoria" Binding="{Binding CategoryDisplay}" Width="*" />
+                <DataGridTextColumn Header="Comentario" Binding="{Binding Comment}" Width="*" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="btnAgregarProducto" HorizontalAlignment="Left" Margin="62,53,0,0" VerticalAlignment="Top" Height="23" Width="98" Click="Button_Click"/>
     </Grid>
 </Window>
