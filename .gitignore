@@ -5,3 +5,11 @@
 /ERP.SGA/ERP.SGA.WinApp/obj
 /.vs
 /ERP.SGA/.vs/ERP.SGA
+/ERP.SGA/.vs/ProjectEvaluation
+/ERP.SGA/ERP.SGA.DataAccess/bin/Debug/net8.0
+/ERP.SGA/ERP.SGA.DataAccess/obj
+/ERP.SGA/ERP.SGA.Infraestructure/bin/Debug/net8.0
+/ERP.SGA/ERP.SGA.Infraestructure/obj
+/ERP.SGA/ERP.SGA.Models/bin/Debug/net8.0
+/ERP.SGA/ERP.SGA.Models/obj
+/ERP.SGA/ERP.SGA.WinApp/bin/Debug/net8.0-windows
